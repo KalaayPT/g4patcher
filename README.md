@@ -107,6 +107,10 @@ Under certain (common) conditions, the AI will use up all of its items at once.
 When a certain flag is set (Flag 2570 by default), this patch will force all wild encounters to be shiny, regardless of the player's ID or SID.
 You can change the flag in the patch file before applying.
 
+### 3.8 Level Caps (PLAT)
+
+A certain variable (16422 by default) dictates if Pokémon can gain EXP. If the Pokémon's level is higher than the cap it won't gain any EXP anymore. (The Daycare is an exception to this)
+
 (more to come)
 
 ## 4. Contributing:
